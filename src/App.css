@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  font-family: "Montserrat", serif;
+}
+
+body{
+  overflow: hidden;
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0px 0px 20px 16px rgba(17, 17, 26, 0.08);
+}
+
+.head{
+  text-align: center;
+}
+
+.portions{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left-portion, .right-portion{
+  padding: 15px;
+}
+
+.desc-img{
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+}
+form{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+input,label{
+  display: block;
+  margin-bottom: 15px;
+}
+
+label{
+  font-size: 1.5rem;
+}
+input{
+  width: 80%;
+  height: 1.5rem;
+  border-radius:5px  ;
+}
+
+.submit-btn{
+  width: 80%;
+  height: 2.5rem;
+  color: white;
+  background:  #5cb85c;
+  border: 0px;
+  font-size: 2rem;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.no-data-img{
+  object-fit: contain;
+  width: 200px;
+  height: 200px;
+}
+
+.res-desc{
+  display: 80%;
+  margin: auto;
+  text-align: center;
+}
+.adjust-desc{
+  text-align: center;
+}
